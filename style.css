@@ -4,3 +4,26 @@
     text-align: center;
     padding: 20px;
  }
+.video-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 0;
+}
+.video-container iframe {
+   width: 100%;
+   max-width: 560px;
+   height: 315px;
+}
+nav ul li a {
+   text-decoration: none;
+   padding: 10px;
+   background-color: #333;
+   color: white;
+   border-radius: 5px;
+   margin: 5px
+}
+
+nav ul li a:hover {
+   background-color:#555;
+}
