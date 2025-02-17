@@ -36,3 +36,26 @@ nav ul li a {
 nav ul li a:hover {
    background-color:#555;
 }
+#site-logo {
+   width: 150px;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+
+header {
+   text-align: center;
+   padding: 20px;
+}
+
+@media (max-width: 768px) {
+   #site-logo {
+      width: 120px;
+   }
+}
+
+#site-logo {
+   background-color: #fff;
+   padding: 10px;
+   border-radius: 5px;
+}
