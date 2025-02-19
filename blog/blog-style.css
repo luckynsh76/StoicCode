@@ -18,8 +18,13 @@ p {
 /* Improve the list appearane */
 ul, ol {
     font-size: 18px;
-    margin: 10px auto;
-    max-width: 24px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 700px;
+    padding-left: 20px;
+}
+li {
+    display: list-item;
 }
 
 /* Style the "Read more on StoicCode" link */
