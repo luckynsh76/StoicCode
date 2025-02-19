@@ -13,6 +13,6 @@ Life is full of ups and downs, but Stoicism teaches us resilience. When you lose
 2. Ask yourself: *Did I act according to reason?*
 3. Identify small improvements for tomorrow.
 
-**No man is free who is not master of himself."** - Epictetus
+**"No man is free who is not master of himself."** - Epictetus
 
 [Read more on StoicCode] (../index.html)
