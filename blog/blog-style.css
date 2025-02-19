@@ -1,0 +1,37 @@
+/* Style the blog post title */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+}
+
+/* Style paragraphs for better readability */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+/* Improve the list appearane */
+ul, ol {
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 24px;
+}
+
+/* Style the "Read more on StoicCode" link */
+a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #0077cc;
+    text-decoration: none;
+    margin-top: 20px
+}
+
+a:hover {
+    text-decoration: underline;
+}
