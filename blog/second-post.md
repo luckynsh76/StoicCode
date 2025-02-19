@@ -14,6 +14,6 @@ Life is unpredictable. Stoicism teaches us how to remain strong despite hardship
 2. Embrace discomfort as a way to build resilience.
 3. End your day by reviewing your actions.
 
-> "We suffer more in imagination than in reality." - Seneca
+**We suffer more in imagination than in reality."** - Seneca
 
 [Read more on StoicCode] (../index.html)
