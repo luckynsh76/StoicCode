@@ -1,9 +1,9 @@
  body {
-    background-image: url('https://raw.githubusercontent.com/luckynsh76/StoicCode/9b822192f4def1bf62d58beae3d6bccf85761c13/images/image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
- }
+   background:
+   linear-gradient(to right, rgb(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8))
+   url('path/to/your/image1.jpg');
+background-size: cover;
+background-blend-mode: overlay;
  .overlay {
    position: absolute;
    top: 0;
