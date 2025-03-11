@@ -1,8 +1,9 @@
+import './App.css';
 import React from "react";
 import { Routes, Route } from "react-router-dom"; //
 import EbookReader from "./components/EbookReader";
 import { Link } from "react-router-dom";
-import "./index.css";
+import Checkout from "./components/Checkout";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<h1>Welcome to StoicCode eBook Reader</h1>} />
           <Route path="reader" element={<EbookReader />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </div>
     );

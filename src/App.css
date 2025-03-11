@@ -1,0 +1,68 @@
+body {
+    font-family: "Georgia", serif;
+    line-height: 1.8;
+    max-width: 800px;
+    margin:auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+ }
+ 
+ h1, h2 {
+    text-align: center;
+    margin-bottom: 20;
+ }
+ 
+ p {
+    text-align: justify;
+    margin-bottom: 16px;
+ }
+ 
+ button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 15px;
+ }
+ 
+ button:hover {
+    background-color: #0056b3;
+ }
+
+ nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+ }
+
+ nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+ }
+
+ nav a:hover {
+    text-decoration: underline;
+ }
+
+ .search-bar {
+   width: 80%;
+   padding: 10px;
+   margin: 10px audo;
+   font-size: 18px;
+   display: block;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+ }
+
+ .highlight {
+   background-color: yellow;
+   font-weight: bold;
+ }

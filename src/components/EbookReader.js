@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 const EbookReader = () => {
     const [parts, setParts] = useState([]);
     const [currentChapter, setCurrentChapter] = useState(null);
+    const [searchTerm, setSearchTerm] = useState(""); //
 
     useEffect (() => {
         fetch("/data/ebook.json")
@@ -28,20 +29,32 @@ const EbookReader = () => {
       }
     };
 
+    const filteredChapters = parts.flatMap((p) => p.chapters).filter(
+      (chapter) =>
+        chapter.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        chapter.content.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
     return (
       <div>
+        <input
+             type="text"
+             placeholder="Search for a chapter..."
+             onChange={(e) => setSearchTerm(e.target.value)}
+             className="search-bar"
+            />
         {currentChapter ? (
-           <div>
-             <h2>{currentChapter.title}</h2>
-             <h3>{currentChapter.subtitle}</h3>
-             <p>{currentChapter.content}</p>
-             <button onClick={goToPreviousChapter}> Previous </button>
-             <button onClick={goToNextChapter}>Next</button>
-           </div>
+          <div>
+            <h2>{currentChapter.title}</h2>
+            <h3>{currentChapter.subtitle}</h3>
+            <p>{currentChapter.content}</p>
+            <button onClick={goToPreviousChapter}> Previous</button>
+            <button onClick={goToNextChapter}>Next</button>
+          </div>
          ) : (
-           <p>Loading eBook...</p>
-         )}
-     </div>
+           <p>loading eBook...</p>
+        )}
+      </div>
     );
 };
 
