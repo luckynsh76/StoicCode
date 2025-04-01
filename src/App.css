@@ -66,3 +66,31 @@ body {
    background-color: yellow;
    font-weight: bold;
  }
+
+ .ebook-content {
+   max-width: 800px;
+   margin: auto;
+   padding: 20px;
+   font-size: 18px;
+   line-height: 1,6;
+ }
+
+ .chapter-nav {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+ }
+
+ .chapter-nav button {
+   background-color: #007bff;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ .chapter-nav button:hover {
+   background-color: #0056b3;
+ }

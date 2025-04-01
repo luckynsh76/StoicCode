@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "set HTTPS=true&& set SSL_CRT_FILE=localhost.pem&& set SSL_KEY_FILE=localhost-key.pem&& react-scripts start"
   },
   "keywords": [],
   "author": "",
@@ -11,12 +11,18 @@
   "description": "",
   "dependencies": {
     "-": "^0.0.1",
-    "@stripe/react-stripe-js": "^3.3.0",
+    "@stripe/react-stripe-js": "^3.4.0",
     "@stripe/stripe-js": "^5.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "exprexx": "^1.0.0",
+    "firebase": "^11.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.3.0",
     "react-scripts": "^5.0.1",
+    "stripe": "^17.7.0",
     "yarn": "^1.22.22"
   },
   "browserslist": {

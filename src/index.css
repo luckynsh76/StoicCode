@@ -41,9 +41,10 @@ nav {
    display: flex;
    justify-content: center;
    gap: 20px;
-   padding: 10px;
+   padding: 15px;
    background-color: #f4f4f4;
    border-bottom: 2px solid #ddd;
+   font-size: 18px;
 }
 
 nav a {
@@ -59,4 +60,32 @@ nav a:hover {
 .highlight {
    background-color: yellow;
    font-weight: bold;
+ }
+
+ .ebook-content {
+   max-width: 800px;
+   margin: auto;
+   padding: 20px;
+   font-size: 18px;
+   line-height: 1,6;
+ }
+
+ .chapter-nav {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+ }
+
+ .chapter-nav button {
+   background-color: #007bff;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ .chapter-nav button:hover {
+   background-color: #0056b3;
  }

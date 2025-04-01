@@ -1,0 +1,25 @@
+{
+    "hosting": {
+        "public": "public",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+        "rewrites": [
+          {
+            "source": "**",
+            "destination": "/index.html"
+          }
+       ]
+    },
+    "functions": {
+    "source": "functins"
+    },
+    "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+    },
+    "storage": {
+    "rules": "storage.rules"
+    },
+    "messaging": {
+        "publicVapidKey": "fZLYTlelYhBs-CC-qDfwuo:APA91bEHdmQ9QH-UB5a_n8uejn4XkBcs2ReshlNnRLxqlFsINAve7wpVChJU4JXoA-jCnjzCrtdeq8WlI3kUcDe7Sg8SZP0N-iBMKLDNENx67_I7DaTjftQ"
+    }
+}

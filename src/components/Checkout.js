@@ -2,7 +2,7 @@ import React from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
-const stripePromise = loadStripe("pk_test_51R0pKVJwRrGVHEEXjs7HmO8XNR1lYIs6M9CYjhBqYQdcayc4Qym3hZieTsQWPLea1cCPLewnIlbl6kp9COlTuWjz0044I60jEY");
+const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 function Checkout() {
     return (
