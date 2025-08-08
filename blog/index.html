@@ -1,26 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StoicCode Blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StoicCode Blog</title>
+  <link rel="stylesheet" href="/styles.css"> <!-- Use your main site stylesheet -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .blog-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .blog-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+    .blog-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .blog-card-content {
+      padding: 20px;
+    }
+    .blog-card-content h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      color: #333;
+    }
+    .blog-card-content p {
+      font-size: 1rem;
+      color: #666;
+    }
+    .blog-card-content a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 40px;
+      background-color: #f2f2f2;
+      color: #555;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <h1>StoicCode Blog</h1>
-    <ul>
-      <li><a href="one-habit-restore-everything.html">The One Habit That Can Restore Everything You Lost</a></li>
-      <li><a href="the-power-of-stoic-resilience.html">The Power of Stoic Resilience</a></li>
-      <li><a href="the-hollow-light-truth-behind-the-ache.html">The Ache You Can't Explain — And Why It Matters</a></li>
-      <li><a href="stoic-confidence-dress-well-inner-strength.html">Stoic Confidence — Why Dressing Well Is Part of Inner Strength</a></li>
 
-      <footer>
-    <p>&copy; 2025 StoicCode. All rights reserved.</p>
-      <a href="https://buymeacoffee.com/nshijean764" target="_blank">Buy Me a Coffee</a>
-      <a href="https://www.youtube.com/channel/UCqZy7rgPXGKqSbgPjYzqSFw" target="_blank">Visit Our Youtube Channel</a> |
-      <a href="/privacy.html">Privacy Policy</a>
-      <a href="/terms.html">Terms of Use</a>
-    </p>
-  </footer>
-    </ul>
+<header>
+  <h1>StoicCode Blog</h1>
+  <p>Insights and reflections on Stoic wisdom for modern life</p>
+</header>
+
+<section class="blog-container">
+  <div class="blog-card">
+    <img src="/images/stoicblog.png" alt="The One Habit">
+    <div class="blog-card-content">
+      <h2>The One Habit That Can Restore Everything You Lost</h2>
+      <p>Discover the timeless Stoic practice that can help you rebuild resilience and clarity after setbacks.</p>
+      <a href="/blog/restore-habit.html">Read More →</a>
+    </div>
+  </div>
+
+  <div class="blog-card">
+    <img src="/images/stoicblog.png" alt="Stoic Resilience">
+    <div class="blog-card-content">
+      <h2>The Power of Stoic Resilience</h2>
+      <p>Learn how to face challenges with calm and strength, no matter what life throws at you.</p>
+      <a href="/blog/stoic-resilience.html">Read More →</a>
+    </div>
+  </div>
+
+  <div class="blog-card">
+    <img src="/images/stoicblog.png" alt="The Ache You Can't Explain">
+    <div class="blog-card-content">
+      <h2>The Ache You Can’t Explain — And Why It Matters</h2>
+      <p>Exploring the inner restlessness and how Stoicism can help you find peace within.</p>
+      <a href="/blog/ache.html">Read More →</a>
+    </div>
+  </div>
+
+  <div class="blog-card">
+    <img src="/images/stoicblog.png" alt="Stoic Confidence">
+    <div class="blog-card-content">
+      <h2>Stoic Confidence — Why Dressing Well Is Part of Inner Strength</h2>
+      <p>How appearance ties to discipline, respect, and living with virtue.</p>
+      <a href="/blog/stoic-confidence.html">Read More →</a>
+    </div>
+  </div>
+</section>
+
+<footer style="text-align: center; padding: 40px; background-color: #f2f2f2; color: #555;">
+      <p>&copy; 2025 StoicCode. All rights reserved.</p>
+      <p>Published by Lucky Nshimiye</p>
+      <p>
+        <a href="https://www.instagram.com/stoiccode" target="_blank">Instagram</a> |
+        <a href="https://twitter.com/stoiccode" target="_blank">Twitter</a> |
+        <a href="mailto:contact@stoiccode.org">Email Us</a>
+        <a href="https://buymeacoffee.com/nshijean764" target="_blank">Buy Me a Coffee</a>
+        <a href="https://www.youtube.com/channel/UCqZy7rgPXGKqSbgPjYzqSFw" target="_blank">Visit Our Youtube Channel</a> |
+        <a href="/privacy.html">Privacy Policy</a> |
+        <a href="/terms.html">Terms of Use</a>
+      </p>
+    </footer>
 </body>
 </html>
