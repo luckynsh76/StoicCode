@@ -124,3 +124,29 @@ section {
    padding: 30px 20px;
    border-radius: 6px;
 }
+
+footer a {
+color: #333;
+text-decoration: none;
+margin: 0 8px;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
+
+#testimonials {
+padding: 60px;
+background-color: #f7f7f7;
+text-align: center;
+}
+
+#testimonials h2 {
+margin-bottom: 20px;
+}
+
+#testimonials blockquote {
+font-style: italic;
+color: #555;
+margin-bottom: 20px;
+}
