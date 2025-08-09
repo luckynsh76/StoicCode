@@ -5,8 +5,8 @@ body.home {
   background:
     linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
     url('images/for_desktop.png') center / cover no-repeat fixed;
-  background-color: #0f1115; /* fallback */
-  background-blend-mode: overlay;
+   background-color: #0f1115; /* fallback */
+   background-blend-mode: overlay;
 }
 
 /* Mobile background – homepage only */
@@ -16,14 +16,6 @@ body.home {
       linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
       url('images/for_phone.png') center / cover no-repeat fixed;
     background-blend-mode: overlay;
-   }
-}
-
-
-/* Phone / small tablets */
-@media (max-width: 768px){
-  body::before{
-    background-image: url("/images/for_phone.png");
    }
 }
 
