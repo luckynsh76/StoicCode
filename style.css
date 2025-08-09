@@ -1,17 +1,24 @@
-/* Background images */
+/* Desktop background – homepage only */
 html, body { height: 100%; }
 
-body::before{
-  content:"";
-  position: fixed; /* stays put while scrolling */
-  inset: 0;
-  background-color:#0f1115; /* fallback */
-  background-image: url("/images/for_desktop.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1; /* behind all content */
+body.home {
+  background:
+    linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+    url('images/for_desktop.png') center / cover no-repeat fixed;
+  background-color: #0f1115; /* fallback */
+  background-blend-mode: overlay;
 }
+
+/* Mobile background – homepage only */
+@media (max-width: 768px) {
+  body.home {
+    background:
+      linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+      url('images/for_phone.png') center / cover no-repeat fixed;
+    background-blend-mode: overlay;
+   }
+}
+
 
 /* Phone / small tablets */
 @media (max-width: 768px){
@@ -142,7 +149,7 @@ text-decoration: underline;
 
 #testimonials {
 padding: 60px 20px;
-background-color: rgba(247, 247, 247, 0.8);
+background-color: rgba(247, 247, 247, 0.8)
 text-align: center;
 }
 
