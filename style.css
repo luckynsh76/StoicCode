@@ -35,14 +35,10 @@ nav ul li a {
    text-decoration: none;
    padding: 10px;
    background-color: #333;
-   color: white;
    border-radius: 5px;
    margin: 5px
 }
 
-nav ul li a:hover {
-   background-color:#555;
-}
 #site-logo {
    width: 150px;
    height: auto;
@@ -60,7 +56,6 @@ header {
 @media (max-width: 768px) {
    #site-logo {
       width: 120px;
-      background-color: #fff;
       padding: 10px;
       border-radius: 5px;
    }
@@ -74,10 +69,6 @@ header {
    height: auto;
 }
 
-.dark-mode {
-   background-color: #1e1e1e;
-   color: #f0f0f0;
-}
 .chapter-content {
    background: #f9f9f9;
    padding: 15px;
@@ -95,18 +86,12 @@ header {
 }
 
 button {
-   background-color: #007bff;
-   color: white;
    border: none;
    padding: 8px 12px;
    cursor: pointer;
    font-size: 14px;
    border-radius: 4px;
    margin-right: 5px;
-}
-
-button:hover {
-   background-color: #0056b3;
 }
 
 @media (max-width: 768px) {
@@ -130,7 +115,6 @@ section {
 }
 
 footer a {
-color: #333;
 text-decoration: none;
 margin: 0 8px;
 }
@@ -156,7 +140,6 @@ margin-bottom: 24px;
 
 #testimonials blockquote {
 font-style: italic;
-color: #555;
 margin: 0 auto 16px;
 max-width: 700px;
 }
@@ -165,6 +148,5 @@ max-width: 700px;
 display: block;
 margin-top: 6px;
 font-style: normal;
-color: #333;
 font-weight: 600;
 }
