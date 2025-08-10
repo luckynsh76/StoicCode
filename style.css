@@ -1,21 +1,27 @@
-/* Desktop background – homepage only */
-html, body { height: 100%; }
+/* Desktop */
+body.home{
+/* either no overlay at all… */
+/* background-image: url('images/for_desktop.png'); */
 
-body.home {
-  background:
-    linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
-    url('images/for_desktop.png') center / cover no-repeat fixed;
-   background-blend-mode: overlay;
+  /* …or a very light dark overlay for text contrast */
+  background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('images/for_desktop.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* keep fixed if you like the parallax effect on desktop */
+  background-attachment: fixed;
 }
 
-/* Mobile background – homepage only */
-@media (max-width: 768px) {
-  body.home {
-    background:
-      linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
-      url('images/for_phone.png') center / cover no-repeat fixed;
-    background-blend-mode: overlay;
-   }
+/* Mobile */
+@media (max-width: 768px){
+  body.home{
+    background-image: linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)), url('images/for_phone.png');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* avoid janky behavior on iOS */
+    background-attachment: scroll;
+  }
 }
 
 .video-container {
