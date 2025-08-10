@@ -193,9 +193,7 @@ body.home strong {
   margin-top: 20px; /* space below so the footer stays down */
 }
 
-@media (max-width: 768px){
-  .side-section{
-    margin: 16px auto 24px; /* centered on phones */
-    width: 92%;
-   }
+@media (max-width: 768px) {
+header nav { position: relative; z-index: 10; }
+.side-section { top: 220px; z-index: 1; } /* adjust px as needed */
 }
