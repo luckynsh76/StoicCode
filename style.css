@@ -182,16 +182,15 @@ body.home strong {
 
 /* was: position:absolute; top:150px; left:50px; */
 .side-section{
-  position: static; /* or 'relative' – but not absolute */
-  width: min(340px, 92%);
-  background: rgba(0,0,0,.35);
-  padding: 16px 18px;
+  position: relative; /* or 'relative' – but not absolute */
+  width: 300px;
+  background: rgba(0,0,0,.3);
+  padding: 20px 18px;
   border-radius: 8px;
+  color: white;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin: 24px 0 48px 24px; /* space below so the footer stays down */
-  z-index: 1; /* optional: sits above background only */
+  margin-top: 20px; /* space below so the footer stays down */
 }
 
 @media (max-width: 768px){
