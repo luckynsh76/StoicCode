@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop | StoicCode</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .shop-hero { text-align:center; padding: 40px 16px; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px;
+      max-width: 1100px;
+      margin: 0 auto 60px;
+      padding: 0 16px;
+    }
+    .card {
+      background: rgba(0,0,0,0.35);
+      backdrop-filter: blur(3px);
+      border-radius: 10px;
+      padding: 14px;
+      text-align: center;
+    }
+    .card img { width: 100%; height: 280px; object-fit: cover; border-radius: 8px; }
+    .card h3 { margin: 10px 0 6px; }
+    .price { opacity:.9; margin-bottom: 10px; }
+    .card .btn {
+      display:inline-block; padding:10px 14px; border-radius:6px;
+      background:#f39f86; color:#fff; text-decoration:none; font-weight:600;
+    }
+    .card .btn:hover { filter: brightness(0.95); }
+  </style>
+</head>
+<body class="home">
+  <header style="text-align:center; padding:20px;">
+    <h1 class="site-title">Shop StoicCode</h1>
+    <nav style="margin-top:10px;">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="ebooks/">eBooks</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="shop-hero">
+    <p>Books, guides, and tools to help you practice modern Stoicism.</p>
+  </section>
+
+  <section class="products">
+    <!-- Product 1 -->
+    <article class="card">
+      <img src="images/the-hollow-light-cover.jpg" alt="The Hollow Light — eBook cover">
+      <h3>The Hollow Light (eBook)</h3>
+      <p class="price">$9</p>
+      <a class="btn" href="https://your-gumroad-or-shopify-link" target="_blank">Buy now</a>
+    </article>
+
+    <!-- Product 2 -->
+    <article class="card">
+      <img src="images/uphill.png" alt="Uphill vs Downhill — eBook cover">
+      <h3>Uphill vs Downhill (eBook)</h3>
+      <p class="price">$7</p>
+      <a class="btn" href="https://your-checkout-link" target="_blank">Buy now</a>
+    </article>
+
+    <!-- Product 3 (physical or future) -->
+    <article class="card">
+      <img src="images/placeholder.jpg" alt="Stoic Daily Journal">
+      <h3>Stoic Daily Journal (Coming Soon)</h3>
+      <p class="price">Notify me</p>
+      <a class="btn" href="https://forms.gle/your-waitlist" target="_blank">Join waitlist</a>
+    </article>
+  </section>
+
+  <footer>
+    <!-- reuse your existing footer -->
+  </footer>
+</body>
+</html>
