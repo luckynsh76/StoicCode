@@ -4,7 +4,7 @@ body.home{
 /* background-image: url('images/for_desktop.png'); */
 
   /* …or a very light dark overlay for text contrast */
-  background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url('images/for_desktop.png');
+  background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.35)), url('images/for_desktop.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
