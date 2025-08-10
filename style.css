@@ -124,6 +124,10 @@ section {
    border-radius: 6px;
 }
 
+footer {
+   margin: 32px;
+}
+
 footer a {
    text-decoration: none;
    margin: 0 8px;
@@ -176,42 +180,23 @@ body.home strong {
   text-shadow: 1px 1px 2px rgba(0,0,0,.8);
 }
 
-.side-section {
-    width: 300px; /* Adjust size */
-    background: rgba(0,0,0,0.3); /* Slight transparent background */
-    padding: 20px;
-    border-radius: 8px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    position: absolute;
-    top: 150px; /* Adjust vertical position */
-    left: 50px; /* Change to right: 50px; if you want it on the right side */
+/* was: position:absolute; top:150px; left:50px; */
+.side-section{
+  position: static; /* or 'relative' – but not absolute */
+  width: min(340px, 92%);
+  background: rgba(0,0,0,.35);
+  padding: 16px 18px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px 0 48px 24px; /* space below so the footer stays down */
+  z-index: 1; /* optional: sits above background only */
 }
 
-.side-section a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.side-section button,
-.side-section input[type="email"] {
-    width: 100%;
-    padding: 8px;
-    border: none;
-    border-radius: 4px;
-}
-
-.side-section button {
-    background-color: #f39f86;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.side-section button:hover {
-    background-color: #f9d976;
-    color: black;
+@media (max-width: 768px){
+  .side-section{
+    margin: 16px auto 24px; /* centered on phones */
+    width: 92%;
+   }
 }
