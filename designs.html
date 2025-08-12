@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Designs – StoicCode</title>
+  <meta name="description" content="High-resolution Stoic-themed graphics for shirts, posters and digital art. Instant download via Gumroad." />
+  <link rel="canonical" href="https://stoiccode.org/designs.html" />
+  <meta property="og:title" content="Designs - StoicCode" />
+  <meta property="og:description" content="High-resolution Stoic-themed graphics for shirts, posters and digital art. Instant download via Gumroad." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://stoiccode.org/designs.html" />
+  <style>
+    :root {
+      --bg: #0d0f13;
+      --card: #131720;
+      --text: #e7e9ee;
+      --muted: #a7afc3;
+      --accent: #d97770; /* soft coral to match your buttons */
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, sans-serif;
+      color: var(--text); background: linear-gradient(180deg, #0b0e12, #141922) fixed;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
+    header { text-align: center; padding: 18px 16px 8px; }
+    header h1 { margin: 0 0 8px; font-size: 34px; letter-spacing: .4px; }
+    header p { margin: 0; color: var(--muted); }
+
+    /* simple breadcrumb */
+    .crumbs { margin: 8px 0 26px; color: var(--muted); font-size: 14px; text-align:center; }
+    .crumbs a { color: var(--muted); text-decoration: none; }
+
+    .grid {
+      display: grid; gap: 18px;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    @media (min-width: 680px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 980px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+    .card {
+      background: rgba(19,23,32,.88); border: 1px solid rgba(255,255,255,.05);
+      border-radius: 16px; overflow: hidden; display: flex; flex-direction: column;
+      box-shadow: 0 8px 28px rgba(0,0,0,.35);
+    }
+    .thumb { aspect-ratio: 16/11; background: #0f141c; display:block; width:100%; object-fit: cover; }
+    .content { padding: 14px 14px 16px; display:flex; flex-direction:column; gap:10px; }
+    .title { font-weight: 700; font-size: 18px; line-height:1.3; }
+    .meta { color: var(--muted); font-size: 14px; }
+    .badges { display:flex; gap:8px; flex-wrap:wrap; }
+    .badge { font-size: 12px; color:#fff; background:#1e2430; border:1px solid rgba(255,255,255,.06); padding:4px 8px; border-radius:999px; }
+    .priceRow { display:flex; align-items:center; justify-content:space-between; margin-top: 6px; }
+    .price { font-size: 18px; font-weight: 700; }
+    .btn {
+      appearance:none; border:none; background: var(--accent); color:#fff; cursor:pointer;
+      padding: 10px 14px; border-radius: 10px; font-weight: 700; transition:.2s transform ease, .25s opacity ease;
+      text-decoration:none; text-align:center; display:inline-block;
+    }
+    .btn:hover { transform: translateY(-1px); opacity: .95; }
+
+    /* top CTA */
+    .cta {
+      margin: 18px auto 26px; padding: 10px 14px; width: fit-content; border-radius: 999px;
+      border: 1px dashed rgba(255,255,255,.15); color: var(--muted); font-size: 14px;
+    }
+    .cta a { color: #fff; text-decoration: underline; }
+
+    footer { text-align:center; color: var(--muted); font-size: 13px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="crumbs"><a href="/">Home</a> · Designs</div>
+    <header>
+      <h1>Designs</h1>
+      <p>High‑resolution, print‑ready Stoic graphics. Instant download via our Gumroad checkout.</p>
+    </header>
+
+    <div class="cta">Prefer the full collection? <a href="https://shop.stoiccode.org/l/ycbye" target="_blank" rel="noopener">Get all 260 designs</a> for one price.</div>
+
+    <section class="grid">
+      <!-- Product 1: Full Bundle -->
+      <article class="card">
+        <img class="thumb" src="images/bundle_cover.png" alt="Stoic Graphics Collection - 260 Designs" loading="lazy" />
+        <div class="content">
+          <div class="title">Stoic Graphics Collection — 260 High-Resolution Designs</div>
+          <div class="badges">
+            <span class="badge">PNG • 300 DPI</span>
+            <span class="badge">Instant download</span>
+            <span class="badge">Commercial use</span>
+          </div>
+          <div class="meta">A complete pack of 260 Stoic-inspired designs ready for shirts, posters, thumbnails, and digital art.</div>
+          <div class="priceRow">
+            <span class="price">$25</span>
+            <a class="btn" href="https://shop.stoiccode.org/l/ycbye" target="_blank" rel="noopener">Buy now</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 2: Example single design (duplicate this card for more singles) -->
+      <article class="card">
+        <img class="thumb" src="/images/designs/stoic-statue-01.jpg" alt="Stoic statue with cosmic background" loading="lazy" />
+        <div class="content">
+          <div class="title">Cosmic Stoic Statue</div>
+          <div class="badges">
+            <span class="badge">PNG • 300 DPI</span>
+            <span class="badge">Transparent BG</span>
+          </div>
+          <div class="meta">A dramatic Stoic statue surrounded by stars — perfect for posters or tees.</div>
+          <div class="priceRow">
+            <span class="price">$3</span>
+            <a class="btn" href="https://shop.stoiccode.org/l/example-01" target="_blank" rel="noopener">Buy now</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 3: Example second single -->
+      <article class="card">
+        <img class="thumb" src="/images/designs/stoic-bust-02.jpg" alt="Stoic marble bust" loading="lazy" />
+        <div class="content">
+          <div class="title">Marble Stoic Bust</div>
+          <div class="badges">
+            <span class="badge">PNG • 300 DPI</span>
+            <span class="badge">Transparent BG</span>
+          </div>
+          <div class="meta">Clean, high‑contrast bust ideal for thumbnails and apparel.</div>
+          <div class="priceRow">
+            <span class="price">$3</span>
+            <a class="btn" href="https://shop.stoiccode.org/l/example-02" target="_blank" rel="noopener">Buy now</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Duplicate more .card blocks for additional singles -->
+    </section>
+
+    <footer>
+      © <span id="y"></span> StoicCode. All rights reserved.
+    </footer>
+  </div>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
