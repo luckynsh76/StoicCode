@@ -197,10 +197,13 @@ body.home strong {
 @media (max-width: 768px) {
   body.home .side-section {
     position: static !important; /* no absolute overlay */
+    top: auto !important;
+    right: auto !important;
     width: auto !important;
-    max-width: 90px;
-    margin: 16px !important;
+    max-width: 100px;
+    margin: 24px 16px 0 16px;
     z-index: 1 !important;
+    clear: both;
 
     /* Prevent the box itself from stealing taps */
     pointer-events: none;
