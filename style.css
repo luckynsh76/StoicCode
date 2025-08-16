@@ -225,17 +225,14 @@ body.home strong {
 }
 
 @media (max-width: 768px) {
-  /* keep the panel below the nav */
-  header { position: relative; z-index: 10; }
+  header {
+    position: relative;
+    z-index: 10; /* Keep nav above background */
+   }
 
-  /* ensure the side-section’s controls sit on top */
-  .side-section a,
-  .side-section button,
-  .side-section input {
-position: relative;
-z-index: 20;
-}
-
-  /* a little space so the panel doesn’t hug the nav */
-  .side-section { margin-top: 12px; }
+   .side-section {
+     position: relative; /* Make sure it flows below nav */
+     margin-top: 60px; /* Push it down below the menu */
+     z-index: 1; /* Keep under the nav */
+   }
 }
