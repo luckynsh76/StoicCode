@@ -242,3 +242,20 @@ z-index: 20;
   /* a little space so the panel doesn’t hug the nav */
   .side-section { margin-top: 12px; }
 }
+
+.hero {
+  text-align: center; /* keeps it centered */
+  padding: 100px 20px; /* adds breathing space top/bottom */
+  color: white; /* makes text readable */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px; /* space below heading */
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px; /* space below paragraph */
+  line-height: 1.6; /* better readability */
+}
