@@ -108,3 +108,71 @@ html {
 .banner-section {
   scroll-snap-align: start;
 }
+
+/* Always show hamburger */
+.hamburger {
+  display: block;
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  z-index: 200;
+}
+
+/* Only hide hamburger on desktop */
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  #menu {
+    display: block !important;
+  }
+
+  #menu ul {
+    display: flex;
+    gap: 20px;
+    background: none;
+    position: static;
+    padding: 0;
+  }
+
+  #menu ul li {
+    list-style: none;
+  }
+
+  #menu ul li a {
+    color: white;
+    padding: 0;
+    text-decoration: none;
+  }
+}
+
+/* Hide nav by default on mobile */
+.hidden {
+  display: none;
+}
+
+/* Show nav when toggled */
+#menu ul {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 6px;
+  position: absolute;
+  right: 15px;
+  top: 60px;
+  padding: 10px 0;
+  z-index: 100;
+}
+
+#menu ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+  background-color: #444;
+}
