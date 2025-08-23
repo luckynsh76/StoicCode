@@ -1,46 +1,52 @@
- <!DOCTYPE html>
- <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>StoicCode</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <meta name="description" content="Discover timeless Stoic wisdom to master resilience, self-discipline, and inner peace. Learn the principles of ancient philosophy for modern life."
-        <!-- SEO Meta Tags -->
-        <title>StoicCode | Wisdom for the Modern Mind</title>
-        <meta name="description" content="Explore Stoic wisdom, modern reflections, and tools to master your mind.">
-        <meta name="keywords" content="stoicism, stoic philosophy, self-discipline, mental strength, wisdom, Marcus Aurelius, Seneca">
-        <meta name="author" content="Lucky Nshimiyimana">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">title>StoicCode – Home</title>
+  <link rel="stylesheet" href="homepage-style.css">
+  <script src="/script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StoicCode</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="description" content="Discover timeless Stoic wisdom to master resilience, self-discipline, and inner peace. Learn the principles of ancient philosophy for modern life."
+  <!-- SEO Meta Tags -->
+  <title>StoicCode | Wisdom for the Modern Mind</title>
+  <meta name="description" content="Explore Stoic wisdom, modern reflections, and tools to master your mind.">
+  <meta name="keywords" content="stoicism, stoic philosophy, self-discipline, mental strength, wisdom, Marcus Aurelius, Seneca">
+  <meta name="author" content="Lucky Nshimiyimana">
 
-        <!-- Open Graph (for social media previews) -->
-        <meta property="og:title" content="StoicCode | Wisdom for the Modern Mind" />
-        <meta property="og:description" content="Explore Stoic wisdom, modern reflections, and tools to master your mind." />
-        <meta property="og:image" content="https://stoiccode.org/images/ebook_cover2.png" />
-        <meta property="og:url" content="https://stoiccode.org" />
-        <meta property="og:type" content="website" />
+  <!-- Open Graph (for social media previews) -->
+  <meta property="og:title" content="StoicCode | Wisdom for the Modern Mind" />
+  <meta property="og:description" content="Explore Stoic wisdom, modern reflections, and tools to master your mind." />
+  <meta property="og:image" content="https://stoiccode.org/images/ebook_cover2.png" />
+  <meta property="og:url" content="https://stoiccode.org" />
+  <meta property="og:type" content="website" />
 
-        <!-- Mobile Responsive -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body class="home">
-        <header style="text-align: center; padding: 20px;">
+  <!-- Mobile Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-          <h1 class="site-title">StoicCode - Wisdom for the Modern Mind</h1>
+  <!-- Header Navigation -->
+  <header class="navbar">
+    <img src="/images/Updated_Logo_with_STOIC.PNG" alt="StoicCode Logo" class="logo" />
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <nav id="menu" class="hidden">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/blog/index.html">Blog</a></li>
+        <li><a href="/ebooks/">eBooks</a></li>
+        <li><a href="/shop.html">Shop</a></li>
+        <li><a href="/designs.html">Designs</a></li>
+        <li><a href="/contact.html">Contact Us</a></li>    
+      </ul>
+    </nav>
+</header>
 
-          <nav style="margin-top: 10px;">
-            <a href="index.html" style="margin: 0 15px; text-decoration: none;">Home</a>
-            <a href="about.html" style="margin: 0 15px; text-decoration: none;">About</a>
-            <a href="blog/index.html" style="margin: 0 15px; text-decoration: none;">Blog</a>
-            <a href="ebooks/" style="margin: 0 15px; text-decoration: none;">eBooks</a>
-            <a href="shop.html" style="margin: 0 15px; text-decoration: none;">Shop</a>
-            <a href="designs.html" style="margin: 0 15px; text-decoration: none;">Designs</a>
-            <a href="contact.html" style="margin: 0 15px; text-decoration: none;">Contact Us</a>
-            <a href="homepage/scroll.html" style="margin: 0 15px;">New Homepage</a>
-          </nav>
-        </header>
-
-        <!-- HERO / TAGLINE -->
+<!-- HERO / TAGLINE -->
         <section class="hero">
           <div class="hero-inner">
             <h1>Daily Stoic wisdom you can read, wear, and live - clarity for the modern mind.</h1>
@@ -51,43 +57,69 @@
           </div>
         </section>
 
-        <div class="side-section">
-            <a href="blog/index.html">Read the StoicCode Blog</a>
+  <!-- Hero Banner Section -->
+  <section class="banner-section" id="banner1">
+    <div class="banner-text">
+      <h1>Discover Ancient Stoic Wisdom</h1>
+      <p>Clarity. Strength. Discipline.</p>
+    </div>
+  </section>
 
-            <p>Subscribe to Get free daily quotes and reflections to strengthen your mind.</p>
-            <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3759c44f21f145a17bd71e70c/5323c8604dbfe145f9333e885.js");</script>
-        </div>
+  <section class="banner-section" id="banner2">
+    <div class="banner-text">
+      <h1>Your Next Message</h1>
+      <p>Optional Subtext Here</p>
+    </div>
+  </section>
 
-        <section>
-            <h2 style="margin-bottom: 20px;">What Readers Are Saying</h2>
-            <div style="max-width: 800px; margin: auto;">
-                <blockquote>
-                    "These Stoic reflections have helped me stay calm and focused every single day."
-                    <br><strong>- Sarah L.</strong>
-                </blockquote>
-                <blockquote>
-                    "The eBooks are full of practical wisdom. Highly recommend StoicCode to anyone wanting to improve themselves."
-                    <br><strong>- James P.</strong>
-                </blockquote>
-                <blockquote>
-                    "Daily Stoic Wisdom emails are a perfect way to start my mornings."
-                    <br><strong>- Maria R.</strong>
-                </blockquote>
-            </div>
-        </section>
+  <section class="banner-section" id="banner3">
+    <div class="banner-text">
+      <h1>Your Next Message</h1>
+      <p>Optional Subtext Here</p>
+    </div>
+  </section>
 
-    <footer>
-      <p>&copy; 2025 StoicCode. All rights reserved.</p>
-      <p>Published by Lucky Nshimiye</p>
-      <p>
-        <a href="https://instagram.com/stoiccode_official" target="_blank">Instagram</a> |
-        <a href="https://x.com/luckyns777" target="_blank">Twitter</a> |
-        <a href="mailto:contact@stoiccode.org">Email Us</a> |
-        <a href="https://buymeacoffee.com/nshijean764" target="_blank">Buy Me a Coffee</a> |
-        <a href="https://www.youtube.com/channel/UCqZy7rgPXGKqSbgPjYzqSFw" target="_blank">Visit Our Youtube Channel</a> |
-        <a href="/privacy.html">Privacy Policy</a> |
-        <a href="/terms.html">Terms of Use</a>
-      </p>
-    </footer>
+  <section class="banner-section" id="banner4">
+    <div class="banner-text">
+      <h1>Your Next Message</h1>
+      <p>Optional Subtext Here</p>
+    </div>
+  </section>
+
+  <section class="banner-section" id="banner5">
+    <div class="banner-text">
+      <h1>Your Next Message</h1>
+      <p>Optional Subtext Here</p>
+    </div>
+  </section>
+
+  <section class="banner-section" id="banner6">
+    <div class="banner-text">
+      <h1>Your Next Message</h1>
+      <p>Optional Subtext Here</p>
+    </div>
+  </section>
+
+  <section class="banner-section" id="banner7">
+    <div class="banner-text">
+      <h1>Your Next Message</h1>
+      <p>Optional Subtext Here</p>
+    </div>
+  </section>
+
+  <section class="banner-section" id="banner8">
+    <div class="banner-text">
+      <h1>Your Next Message</h1>
+      <p>Optional Subtext Here</p>
+    </div>
+  </section>
+
+  <section class="banner-section" id="banner9">
+    <div class="banner-text">
+      <h1>Your Next Message</h1>
+      <p>Optional Subtext Here</p>
+    </div>
+  </section>
+
 </body>
 </html>
