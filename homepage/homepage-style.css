@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1000;
+}
+
+.logo {
+  height: 40px;
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* First Banner Section */
+.banner-section {
+  height: 100vh;
+  background-image: url('/images/banner1.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px; /* for navbar offset */
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+.banner-text p {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+  margin-top: 10px;
+}
+
+/* First Banner Section - Default (Desktop) */
+.banner-section {
+  height: 100vh;
+  background-image: url('/images/for_desktop.PNG');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px; /* offset for navbar */
+}
+
+/* Responsive: Override for Phones */
+@media screen and (max-width: 768px) {
+  .banner-section {
+    background-image: url('/images/for_phone.PNG');
+  }
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+.banner-text p {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+  margin-top: 10px;
+}
+
+#banner2 {
+  background-image: url('/images/your_next_image.jpg');
+}
+
+/* Optional phone version override */
+@media screen and (max-width: 768px) {
+  #banner2 {
+    background-image: url('/images/your_next_image_phone.jpg');
+  }
+}
