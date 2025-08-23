@@ -76,10 +76,18 @@ body, html {
   }
 
   .hamburger {
-    display: block;
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
   }
 }
 
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
 /* Background Images */
 #banner1 { background-image: url("/images/banner1.PNG"); }
 #banner2 { background-image: url("/images/banner2.PNG"); }
