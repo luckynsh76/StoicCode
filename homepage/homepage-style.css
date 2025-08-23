@@ -1,22 +1,28 @@
-/* Reset */
+/* General Reset and Font */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
 .navbar {
   position: fixed;
-  width: 100%;
   top: 0;
   left: 0;
-  padding: 20px;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.8);
-  z-index: 1000;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 999;
 }
 
 .logo {
@@ -25,75 +31,72 @@
 
 .hamburger {
   font-size: 30px;
+  color: white;
   cursor: pointer;
+  display: none;
 }
 
-/* First Banner Section */
+/* Banner Sections */
 .banner-section {
   height: 100vh;
-  background-image: url('/images/banner1.jpg');
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-top: 60px; /* for navbar offset */
+}
+
+.banner-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 10px;
 }
 
 .banner-text h1 {
   font-size: 3rem;
-  color: white;
-  text-shadow: 2px 2px 10px black;
+  margin-bottom: 10px;
 }
 
 .banner-text p {
-  font-size: 1.5rem;
-  color: white;
-  text-shadow: 2px 2px 10px black;
-  margin-top: 10px;
+  font-size: 1.2rem;
 }
 
-/* First Banner Section - Default (Desktop) */
+/* Responsive Text */
+@media (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+
+  .banner-text p {
+    font-size: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Background Images */
+#banner1 { background-image: url("/images/banner1.PNG"); }
+#banner2 { background-image: url("/images/banner2.PNG"); }
+#banner3 { background-image: url("/images/banner3.PNG"); }
+#banner4 { background-image: url("/images/banner4.PNG"); }
+#banner5 { background-image: url("/images/banner5.PNG"); }
+#banner6 { background-image: url("/images/banner6.PNG"); }
+#banner7 { background-image: url("/images/banner7.PNG"); }
+#banner8 { background-image: url("/images/banner8.PNG"); }
+#banner9 { background-image: url("/images/banner9.PNG"); }
+
+/* Optional: Smooth Scroll Snapping */
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
 .banner-section {
-  height: 100vh;
-  background-image: url('/images/for_desktop.PNG');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-top: 60px; /* offset for navbar */
-}
-
-/* Responsive: Override for Phones */
-@media screen and (max-width: 768px) {
-  .banner-section {
-    background-image: url('/images/for_phone.PNG');
-  }
-}
-
-.banner-text h1 {
-  font-size: 3rem;
-  color: white;
-  text-shadow: 2px 2px 10px black;
-}
-
-.banner-text p {
-  font-size: 1.5rem;
-  color: white;
-  text-shadow: 2px 2px 10px black;
-  margin-top: 10px;
-}
-
-#banner2 {
-  background-image: url('/images/your_next_image.jpg');
-}
-
-/* Optional phone version override */
-@media screen and (max-width: 768px) {
-  #banner2 {
-    background-image: url('/images/your_next_image_phone.jpg');
-  }
+  scroll-snap-align: start;
 }
