@@ -27,6 +27,8 @@ body, html {
 
 .logo {
   height: 40px;
+  max-width: 150;
+  object-fit: contain;
 }
 
 .hamburger {
