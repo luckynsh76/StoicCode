@@ -329,8 +329,7 @@ body {
 
 html, body {
   height: 100%;
-  margin: 20;
-  padding: 20;
+  margin: 20px;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
 }
