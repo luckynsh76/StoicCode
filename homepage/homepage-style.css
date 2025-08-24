@@ -137,7 +137,7 @@ html {
 
   #menu ul {
     display: flex;
-    flex-direction: column !important;
+    flex-direction: row !important;
     gap: 10px;
     background-color: transparent;
     border-radius: 0px;
@@ -149,7 +149,8 @@ html {
   }
 
   #menu ul li {
-    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
   }
 
   #menu ul li a {
