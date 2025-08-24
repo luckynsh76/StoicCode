@@ -108,7 +108,9 @@ html {
 }
 
 .banner-section {
-  scroll-snap-align: start;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Always show hamburger */
@@ -283,7 +285,7 @@ body {
 .site-footer {
   background-color: #1d1d1d;
   color: #fff;
-  padding: 20px;
+  padding: 60px 20px;
   font-size: 14px;
   margin-top: auto;
 }
