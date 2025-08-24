@@ -227,23 +227,3 @@ html {
   background: #e0b000;
 }
 
-@media (min-width: 768px) {
-  #menu {
-    display: flex !important;
-    position: static;
-  }
-
-  .hamburger {
-    display: none !important;
-  }
-
-  #menu ul {
-    flex-direction: row !important;
-    position: static;
-    background-color: transparent;
-    padding: 0;
-    right: auto;
-    top: auto;
-    z-index: auto;
-  }
-}
