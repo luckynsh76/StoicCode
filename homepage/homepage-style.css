@@ -285,6 +285,7 @@ body {
   color: #fff;
   padding: 40px 20px;
   font-size: 14px;
+  margin-top: auto;
 }
 
 .footer-container {
@@ -326,3 +327,14 @@ body {
   color: #888;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
