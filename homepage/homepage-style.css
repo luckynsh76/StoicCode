@@ -334,7 +334,3 @@ html, body {
   display: flex;
   flex-direction: column;
 }
-
-.main-content {
-  flex: 1;
-}
