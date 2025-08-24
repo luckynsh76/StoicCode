@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (hamburger && menu) {
     hamburger.addEventListener("click", () => {
       menu.classList.toggle("hidden");
+      menu.classList.toggle("show");
     });
   }
 });
