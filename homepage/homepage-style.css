@@ -227,15 +227,23 @@ html {
   background: #e0b000;
 }
 
-#menu ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: rgba(0, 0, 0, 0.9);
-  border-radius: 6px;
-  padding: 10px;
-  position: absolute;
-  right: 15px;
-  top: 60px;
-  z-index: 100;
+@media (min-width: 768px) {
+  #menu {
+    display: flex !important;
+    position: static;
+  }
+
+  .hamburger {
+    display: none !important;
+  }
+
+  #menu ul {
+    flex-direction: column !important;
+    position: static;
+    background-color: transparent;
+    padding: 0;
+    right: auto;
+    top: auto;
+    z-index: auto;
+  }
 }
