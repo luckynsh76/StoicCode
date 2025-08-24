@@ -137,15 +137,15 @@ html {
 
   #menu ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row !important;
     gap: 10px;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 6px;
-    padding: 10px;
-    position: absolute;
-    right: 15px;
-    top: 60px;
-    z-index: 100;
+    background-color: transparent;
+    border-radius: 0px;
+    padding: 0px;
+    position: static;
+    right: auto;
+    top: auto;
+    z-index: auto;
   }
 
   #menu ul li {
