@@ -137,7 +137,7 @@ html {
 
   #menu ul {
     display: flex;
-    flex-direction: row !important;
+    flex-direction: column !important;
     gap: 10px;
     background-color: transparent;
     border-radius: 0px;
@@ -227,3 +227,15 @@ html {
   background: #e0b000;
 }
 
+#menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  right: 15px;
+  top: 60px;
+  z-index: 100;
+}
