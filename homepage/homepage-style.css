@@ -125,13 +125,15 @@ html {
 
 /* Only hide hamburger on desktop */
 @media (min-width: 768px) {
-  .hamburger {
-    display: none;
+  #menu {
+    display: flex !important;
+    position: static;
   }
 
-  #menu {
-    display: block !important;
+  .hamburger {
+    display: none !important;
   }
+}
 
   #menu ul {
     display: flex;
@@ -150,7 +152,6 @@ html {
     padding: 0;
     text-decoration: none;
   }
-}
 
 /* Hide nav by default on mobile */
 .hidden {
