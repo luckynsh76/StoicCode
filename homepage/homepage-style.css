@@ -283,7 +283,7 @@ body {
 .site-footer {
   background-color: #1d1d1d;
   color: #fff;
-  padding: 40px 20px;
+  padding: 20px;
   font-size: 14px;
   margin-top: auto;
 }
@@ -330,6 +330,6 @@ body {
 html, body {
   height: 100%;
   margin: 20px;
-  padding: 20px;
+  padding:60px 20px;
   display: flex;
 }
