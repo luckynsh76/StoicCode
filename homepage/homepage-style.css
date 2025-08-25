@@ -333,3 +333,21 @@ section.banner-section {
   width: 100%;
   display: block;
 }
+
+.banner-text p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.banner-text ul {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-left: 20px;
+}
+
+.banner-text blockquote {
+  font-style: italic;
+  color: #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
