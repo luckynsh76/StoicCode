@@ -340,6 +340,11 @@ section.banner-section {
 }
 
 .banner-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.banner-text ul {
   margin-top: 12px;
   margin-bottom: 12px;
   padding-left: 20px;
