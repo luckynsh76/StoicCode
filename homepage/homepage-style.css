@@ -345,6 +345,11 @@ section.banner-section {
   padding-left: 20px;
 }
 
+.banner-text ul li::before {
+  content: '';
+  margin-right: 0;
+}
+
 .banner-text blockquote {
   font-style: italic;
   color: #ccc;
