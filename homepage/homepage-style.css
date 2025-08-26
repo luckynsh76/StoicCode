@@ -360,3 +360,8 @@ section.banner-section {
 .swiper-pagination {
   display: none;
 }
+
+.swiper-pagination,
+.swiper-pagination-bullet {
+  display: none !important;
+}
