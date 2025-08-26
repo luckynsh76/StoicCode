@@ -370,3 +370,30 @@ section.banner-section {
 .swiper-pagination-bullet {
   display: none !important;
 }
+
+.subscribe-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #111;
+  color: white;
+}
+
+.subscribe-section input[type="email"] {
+  padding: 10px;
+  width: 280px;
+  max-width: 90%;
+  margin: 10px 0;
+  border: none;
+}
+
+.subscribe-section button {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.subscribe-section button:hover {
+  background-color: #cf711f;
+}
