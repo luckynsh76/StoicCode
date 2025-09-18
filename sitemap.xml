@@ -29,11 +29,4 @@
     <priority>0.8</priority>
   </url>
 
-  <url>
-    <loc>https://stoiccode.org/resources.html</loc>
-    <lastmod>2025-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
 </urlset>
