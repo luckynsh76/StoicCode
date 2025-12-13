@@ -1,157 +1,148 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-        <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
- <loc>https://stoiccode.org/</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>1.00</priority>
+<loc>https://stoiccode.org/</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/index.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/index.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/about.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/about.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/index.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/blog/index.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/ebooks/</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/ebooks/</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/digital-library.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/digital-library.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/designs.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/designs.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/Video.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/Video.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/contact.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/contact.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/perspective-is-power.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/blog/perspective-is-power.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/the-road-you-choose.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/blog/the-road-you-choose.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/privacy.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/privacy.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/terms.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.80</priority>
+<loc>https://stoiccode.org/terms.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/one-habit-restore-everything.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/one-habit-restore-everything.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/the-power-of-stoic-resilience.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/the-power-of-stoic-resilience.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/the-hollow-light-truth-behind-the-ache.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/the-hollow-light-truth-behind-the-ache.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/the-greatest-strength-is-inner-discipline.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/the-greatest-strength-is-inner-discipline.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/clarity-for-the-modern-mind.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/clarity-for-the-modern-mind.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/if-you-are-distressed-by-anything-external.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/if-you-are-distressed-by-anything-external.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/The-One-Who-Puts-the-Finishing-Touches.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/The-One-Who-Puts-the-Finishing-Touches.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/the-obstacle-is-the-way.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/the-obstacle-is-the-way.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/the-unconqerable-mind.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/the-unconqerable-mind.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/the-uphill-path.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/the-uphill-path.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/escape-the-poverty-system.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/escape-the-poverty-system.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/the-storm-is-your-teacher.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/the-storm-is-your-teacher.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/desire-makes-us-vulnerable.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/desire-makes-us-vulnerable.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/why-extreme-make-you-vulnerable.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/why-extreme-make-you-vulnerable.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/blog/master-your-mind.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/blog/master-your-mind.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
- <loc>https://stoiccode.org/ebooks/index.html</loc>
- <lastmod>2025-09-18T18:08:52+00:00</lastmod>
- <priority>0.64</priority>
+<loc>https://stoiccode.org/ebooks/index.html</loc>
+<lastmod>2025-09-18T18:08:52+00:00</lastmod>
+<priority>0.64</priority>
 </url>
-
-
 </urlset>
