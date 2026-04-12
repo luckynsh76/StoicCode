@@ -259,3 +259,23 @@ z-index: 20;
   margin-bottom: 30px; /* space below paragraph */
   line-height: 1.6; /* better readability */
 }
+
+/* ===== SEO SECTION FIX ===== */
+.seo-text {
+  padding: 40px 20px;
+  background-color: #0f172a;
+  color: #e5e7eb;
+  text-align: center;
+}
+
+.seo-text h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.seo-text p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  font-size: 16px;
+}
