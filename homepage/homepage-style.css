@@ -398,22 +398,54 @@ section.banner-section {
   background-color: #cf711f;
 }
 
-/* ===== SEO SECTION FIX ===== */
+/* ===== PREMIUM SEO SECTION ===== */
 .seo-text {
-  padding: 40px 20px;
-  background-color: #0f172a;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
   color: #e5e7eb;
   text-align: center;
+  margin: 60px auto;
+  border-radius: 12px;
+  max-width: 1100px;
+
+  /* Premium depth */
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 
+/* Title */
 .seo-text h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 
+/* Paragraph */
 .seo-text p {
   max-width: 800px;
   margin: auto;
-  line-height: 1.6;
-  font-size: 16px;
+  line-height: 1.8;
+  font-size: 17px;
+  opacity: 0.9;
+}
+
+/* Optional highlight text */
+.seo-text strong {
+  color: #f97316;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .seo-text {
+    padding: 40px 15px;
+    margin: 40px 10px;
+  }
+
+  .seo-text h1 {
+    font-size: 24px;
+  }
+
+  .seo-text p {
+    font-size: 15px;
+  }
 }
